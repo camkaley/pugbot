@@ -1,0 +1,4 @@
+{
+	"name": "warbot",
+	"script": "build/src/index.js"
+}

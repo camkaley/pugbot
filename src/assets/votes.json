@@ -1,0 +1,27 @@
+{
+	"askPickTeams":
+	{
+		"question": "How would you like to choose **Teams**?",
+		"options": ["Random", "Pick"]
+	},
+	"askPickCaptains":
+	{
+		"question": "How would you like to choose **Captains**?",
+		"options": ["Random", "Pick"]
+	},
+	"pickCaptains":
+	{
+		"question": "Players, Vote For Two Captains",
+		"options": []
+	},
+	"pickTeams":
+	{
+		"question": "Captains, Pick Your Players",
+		"options": []
+	},
+	"voteMap":
+	{
+		"question": "What **Map** would you like to play?",
+		"options": ["Random", "Refinery", "Hideout", "Crossing"]
+	}
+}

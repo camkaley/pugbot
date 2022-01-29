@@ -1,0 +1,50 @@
+{
+    "name": "discord-warbot",
+    "version": "0.33.4",
+    "description": "Discord bot for wars and PUGs.",
+    "author": "Dean Roffey (Dr. Ace Misanthrope)",
+    "license": "GPL-3.0",
+    "keywords": [
+        "PGL",
+        "WarBot",
+        "PUG",
+        "Discord"
+    ],
+    "main": "src/index.js",
+    "scripts": {
+        "test": "babel-node src/index.js",
+        "build": "babel . -d build --copy-files --ignore node_modules ",
+        "start": "npm run build && pm2 start ecosystem.json"
+    },
+    "babel": {
+        "ignore": [
+            "node_modules"
+        ],
+        "presets": [
+            [
+                "babel-preset-env",
+                {
+                    "targets": {
+                        "esmodules": true,
+                        "node": true
+                    }
+                }
+            ]
+        ]
+    },
+    "dependencies": {
+        "discord.js": "^11.6.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/register": "^7.14.5",
+        "babel-cli": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-register": "^6.26.0",
+        "eslint": "^5.16.0",
+        "json": "^11.0.0",
+        "sqlite": "^3.0.6"
+    }
+}

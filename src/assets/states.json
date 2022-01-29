@@ -1,0 +1,22 @@
+{
+	"pug": {
+		"waiting": {
+			"name": "Waiting for Players"
+		},
+		"startCheck": {
+			"name": "Waiting for start approval"
+		},
+		"playersFound": {
+			"name": "Players Found!"
+		},
+		"ready": {
+			"name": "Ready!"
+		},
+		"settingUp": {
+			"name": "Setting up..."
+		},
+		"playing": {
+			"name": "Playing!  *(Live Scores Coming Soon!)*"
+		}
+	}
+}
